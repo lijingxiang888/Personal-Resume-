@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>李静想移动端简历</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/H5index.css"/>
+</head>
+<body>
+<!--music-->
+<div class="music musicMove" id="music"></div>
+<audio class="audioMusic" id="audioMusic" src="audio/music2.mp3" preload="none" loop>
+</audio>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--第一屏，封面-->
+        <div class="swiper-slide page01 clear">
+            <img src="images/text1.png" alt=""/>
+            <img src="images/text2.png" alt=""/>
+            <img src="images/text4.png" alt=""/>
+        </div>
+        <!--第二屏，个人信息-->
+        <div class="swiper-slide page02 clear">
+            <img src="images/icon_user1.png" alt=""/>
+            <img src="images/flags.png" alt="">
+            <img src="images/myheader.png" alt="">
+            <ul class="clear">
+                <li><p>姓名：李静想</p></li>
+                <li><p>毕业院校：河北农业大学</p></li>
+                <li><p>专业：物流管理</p></li>
+                <li><p>籍贯：河北保定</p></li>
+            </ul>
+        </div>
+        <!--第三屏，工作经验-->
+        <div class="swiper-slide page03 clear">
+            <img src="images/icon_user3.png" alt=""/>
+            <img src="images/flags.png" alt="">
+            <img src="images/kuang.png" alt="">
+            <img src="images/diandian.png" alt="">
+            <ul>
+                <li><strong>2013.1-2014.11:</strong><br>腾讯公司设计部</li>
+                <li><strong>2014.12-2015.4:</strong><br>阿里公司前端部</li>
+                <li><strong>2015.5-2016.12:</strong><br>百度前端开发</li>
+                <li><strong>2017.1-2017.5:</strong><br>京东</li>
+            </ul>
+        </div>
+        <!--第四屏，个人能力-->
+        <div class="swiper-slide page04 clear">
+            <img src="images/icon_user2.png" alt=""/>
+            <img src="images/flags.png" alt="">
+            <img src="images/people.png" alt="">
+            <img src="images/h5.png" alt="">
+            <img src="images/css3.png" alt="">
+            <img src="images/JS.png" alt="">
+            <img src="images/ps.png" alt="">
+            <img src="images/node.png" alt="">
+            <img src="images/des.png" alt="">
+        </div>
+        <!--第五屏，联系方式-->
+        <div class="swiper-slide page05 clear">
+            <img src="images/icon_user4.png" alt=""/>
+            <img src="images/flags.png" alt="">
+            <img src="images/zhuomian.png" alt="">
+            <img src="images/weixin.jpg" alt="">
+            <img src="images/end.png" alt="">
+            <p>扫描微信二维码添加我好友</p>
+        </div>
+    </div>
+</div>
+<!--arrow-->
+<div class="arrow arrowone" id="arrow"></div>
+<!--swiper 插件封装好的js文件-->
+<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
+<!--解决移动端click事件300ms延迟的问题-->
+<script charset="utf-8" type="text/javascript" src="js/fastclick.min.js"></script>
+<!--我们页面需要用要的js文件-->
+<script charset="utf-8" type="text/javascript" src="js/H5index.js"></script>
+</body>
+</html>
